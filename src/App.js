@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './App.css'
 import axios from 'axios'
 import { useDropzone } from 'react-dropzone'
 
