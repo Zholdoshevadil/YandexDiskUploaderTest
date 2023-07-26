@@ -49,7 +49,7 @@ const YandexDiskUploader = () => {
 
 	return (
 		<div>
-			<div {...getRootProps()} style={dropzoneStyles}>
+			<div {...getRootProps()} className='dropzoneStyles'>
 				<input {...getInputProps()} />
 				<p>
 					Drag and drop files here, or click to select files (up to 100 files).
@@ -69,14 +69,6 @@ const YandexDiskUploader = () => {
 			</div>
 		</div>
 	)
-}
-
-const dropzoneStyles = {
-	border: '2px dashed #ccc',
-	borderRadius: '4px',
-	padding: '20px',
-	textAlign: 'center',
-	cursor: 'pointer',
 }
 
 export default YandexDiskUploader
